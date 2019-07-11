@@ -1,65 +1,72 @@
 /* CSS for index.html only */
 
 html {
-    background-image: linear-gradient(white, #122c42);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image: linear-gradient(white, #122c42);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.navbar {
+  background-color: transparent !important;
 }
 
 h1 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background: transparent;
+  width: 200px;
+  height: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: transparent;
 }
 
 body {
-    text-align: center;
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100%;
-    background: transparent;
+  text-align: center;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  background: transparent;
 }
 
 img {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 .jumbotron {
-    background: transparent;
-    margin-top: 0px;
+  background: transparent;
+  margin-top: 0px;
 }
 
 article {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link  {
-    color: #122c42;
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #122c42;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #122c42;
+  color: #122c42;
 }
 
 .navbar-nav {
-    text-align: center;
+  text-align: center;
 }
 
 .btn {
-    background-color: #122c42;
-    border-color: #122c42;
+  background-color: #122c42;
+  border-color: #122c42;
 }
 
 /* --- PAGE-SPECIFIC STYLES --- */

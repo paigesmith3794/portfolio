@@ -1,46 +1,52 @@
 /* CSS for contact.html only */
 
-
 html {
-    background-image: linear-gradient(white, #122c42);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100%;
+  background-image: linear-gradient(white, #122c42);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+}
+
+.navbar {
+  background-color: transparent !important;
 }
 
 body {
-    background: transparent;
+  background: transparent;
 }
 
 .card {
-    margin-left: 150px;
-    margin-right: 150px;
-    height: 300px;
-    border-color: #122c42;
-    border-width: thick;
-    text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 300px;
+  border-color: #122c42;
+  border-width: thick;
+  text-align: center;
 }
 
 h1 {
-    text-align: center;
-    color: #122c42;
-    font-family: 'Lobster', cursive;
-    font-size: 100px;
-    background-image: transparent;
-    padding-bottom: 25px;
-    padding-top: 25px;
+  text-align: center;
+  color: #122c42;
+  font-family: "Lobster", cursive;
+  font-size: 100px;
+  background-image: transparent;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .btn {
-    background-color: #122c42;
-    border-color: #122c42;
+  background-color: #122c42;
+  border-color: #122c42;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link  {
-    color: #122c42;
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #122c42;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #122c42;
+  color: #122c42;
 }

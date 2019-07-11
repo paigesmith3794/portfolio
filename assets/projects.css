@@ -1,23 +1,43 @@
 /* CSS for projects.html only */
 
 h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Lobster', cursive;
-    font-size: 100px;
-    padding-bottom: 25px;
-    padding-top: 25px;
+  text-align: center;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 100px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.flip {
+  display: inline-block;
+  transform: rotateY(180deg);
 }
 
 .card {
-    text-align: center;
-    color: #122c42;
+  text-align: center;
+  color: #122c42;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link  {
-    color: #122c42;
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+  text-align: center;
+  word-spacing: 15px;
+  width: 100%;
+  padding: 30px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #122c42;
+  color: white;
+  text-align: center;
+  word-spacing: 15px;
+  width: 100%;
+  padding: 30px;
 }
